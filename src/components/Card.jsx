@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 
 function CardComponent() {
     return (
-        <div>
+        <div style={{marginTop:"2rem"}}>
             <Card sx={{ display: 'flex' ,marginBottom: "3rem" ,justifyContent: "space-between", marginTop:"1rem"}}>
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1 0 auto' }}>

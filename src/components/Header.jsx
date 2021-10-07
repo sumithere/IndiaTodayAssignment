@@ -11,7 +11,11 @@ function Header() {
             display: "flex",
             alignItems: "flex-start",
             justifyContent: "space-between",
-            height:"2rem"
+            height:"2rem",
+            position: "fixed",
+            top: "0px",
+            left: "0px",
+            width:"100%"
         },
         height:{
             height:"inherit"

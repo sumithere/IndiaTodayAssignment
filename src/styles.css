@@ -1,0 +1,18 @@
+input::placeholder {
+    font-size: 1rem;
+}
+.customer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: rgba(189 ,194, 212, 0.5);
+    padding-top: 2rem;
+}
+.customer-image{
+    position: absolute;
+    height: 4rem;
+    left: 165px;
+    bottom: 54px;
+}
